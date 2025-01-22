@@ -8,7 +8,6 @@ t2 = t1.permute(2, 1, 0)
 print("After permute = \n", t2.size())
 
 # Question 3 - Indexing
-t1 = torch.randn(1, 2, 3)
 print(t1)
 print(t1[0, 1, 1])
 print(t1[0, 1, 2])
