@@ -10,7 +10,6 @@ y = torch.tensor([40.0, 120.0, 180.0, 210.0, 240.0]).view(-1, 1)
 learning_rate = 0.001
 num_epochs = 100
 
-# Model
 class LinearRegressionModel(nn.Module):
     def __init__(self):
         super(LinearRegressionModel, self).__init__()

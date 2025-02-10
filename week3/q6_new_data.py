@@ -9,7 +9,7 @@ x = torch.hstack([x1, x2])
 y = torch.tensor([-3.7, 3.5, 2.5, 11.5, 5.7]).view(-1, 1)
 # Hyperparameters
 learning_rate = 0.01
-num_epochs = 800
+num_epochs = 100
 
 # Model
 class LinearRegressionModel(nn.Module):

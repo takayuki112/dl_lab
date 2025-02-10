@@ -36,6 +36,11 @@ for epoch in range(num_epochs):
     print(f"Ep {epoch + 1}: w={w.item()} and b={b.item()}; loss = {loss.item()}")
 
 plt.plot(loss_values)
+plt.title("Loss vs Epochs")
+plt.xlabel("Epochs")
+plt.ylabel("Loss")
+plt.grid()
+plt.legend(["Loss"])
 plt.show()
 
 

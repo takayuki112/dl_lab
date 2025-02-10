@@ -8,7 +8,7 @@ y = torch.tensor([0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0]).view(-1, 1)
 
 # Hyperparameters
 learning_rate = 0.01
-num_epochs = 500
+num_epochs = 100
 
 # Model
 class LogisticReg(nn.Module):

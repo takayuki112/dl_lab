@@ -50,4 +50,9 @@ for epoch in range(num_epochs):
 
 
 plt.plot(loss_list)
+plt.title("Loss vs Epochs")
+plt.xlabel("Epochs")
+plt.ylabel("Loss")
+plt.grid()
+plt.legend(["Loss"])
 plt.show()
