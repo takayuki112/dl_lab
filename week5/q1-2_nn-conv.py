@@ -22,6 +22,7 @@ print("Shape of op with stride 2 = ", out_stride2.shape)
 
 # Question 2
 nn_conv = Conv2d(1, 3, 3, 1, bias=0)
+# nn_conv.weight = kernel
 out2 = nn_conv(img)
 print("\n\nShape of output with nn Conv2d = ", out2.shape)
 
